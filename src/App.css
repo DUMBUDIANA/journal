@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.rednav{background-color: red;display: flex;justify-content: center;align-items: center;height: 15vh;}
+.jimages{height: 50vh;width: 300px;}
+.diana{display: flex;margin-top: 100px;margin-left: 10%;margin-bottom: 70px;}
+.bannerpara{margin-top: 20px;margin-left: 10px;font-family: 'Inter';font-weight: 800;color: white;font-size: 30px;}
+/* .banner-image{} */
+.content-text{
+    margin-left: 70px;
+}
+.mapscontent{display: flex;flex-direction: row;}
+.location img{object-fit: contain;width: 10px;height: 20px;margin-top: 15px;}
+.location{margin-top: 40px;}
+.country{font-size: 30px;font-family: 'Inter';margin-left: 10px;margin-right: 30px;}
+.viewonmap{color: #918E9B;margin-top: 10px;font-family: 'Inter';}
+.title{font-size: 30px;font-family: 'Inter';font-weight: 700;margin-bottom: 15px;}
+.date{font-family: 'Inter';font-weight: 800;font-size: 18px;}
+.discription{font-size: 18px;font-family: 'Inter';color: #2B283A;margin-right: 30%;line-height: 1.4;}
+
+
+
+@media (max-width: 575.98px) { 
+
+.diana{flex-direction: column;margin-left: 0;margin-top: 40px;}
+.content-text{margin-left: 0;}
+
+ 
+ .jimages{width: 100%;}
+ .discription{margin-right: 1%;font-size: 15px;}
+}
+
+
+
