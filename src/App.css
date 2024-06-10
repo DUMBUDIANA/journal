@@ -2,9 +2,9 @@ body{
     margin: 0;
     padding: 0;
 }
-.rednav{background-color: red;display: flex;justify-content: center;align-items: center;height: 15vh;}
-.jimages{height: 50vh;width: 300px;}
-.diana{display: flex;margin-top: 100px;margin-left: 10%;margin-bottom: 70px;}
+.rednav{background-color: red;display: flex;justify-content: center;align-items: center;height: 15vh;margin-bottom: 100px;width: 100%;}
+.jimages{height: 50vh;width: 300px;border-radius: 4px;}
+.diana{display: flex;margin-left: 15%;margin-bottom: 60px;}
 .bannerpara{margin-top: 20px;margin-left: 10px;font-family: 'Inter';font-weight: 800;color: white;font-size: 30px;}
 /* .banner-image{} */
 .content-text{
@@ -18,18 +18,38 @@ body{
 .title{font-size: 30px;font-family: 'Inter';font-weight: 700;margin-bottom: 15px;}
 .date{font-family: 'Inter';font-weight: 800;font-size: 18px;}
 .discription{font-size: 18px;font-family: 'Inter';color: #2B283A;margin-right: 30%;line-height: 1.4;}
+.line{width: 69%;
+height: 2px;
+margin: auto;background-color:#F5F5F5 ;margin-bottom: 5%;}
 
 
 
 @media (max-width: 575.98px) { 
 
-.diana{flex-direction: column;margin-left: 0;margin-top: 40px;}
+.diana{flex-direction: column;margin-left: 0;margin-top: 40px;margin-bottom: 30px;}
 .content-text{margin-left: 0;}
+.line{width: 100%;}
+.rednav{margin-bottom: 43px;}
 
  
  .jimages{width: 100%;}
  .discription{margin-right: 1%;font-size: 15px;}
 }
+
+@media (min-width: 576px) and (max-width:768px) {
+
+
+    .diana{flex-direction: column;margin-left: 25px;margin-top: 40px;margin-bottom: 30px;}
+    .content-text{margin-left: 0;}
+    .line{width: 100%;}
+    .rednav{margin-bottom: 43px;}
+    
+     
+     .jimages{width: 100%;}
+     .discription{margin-right: 1%;font-size: 15px;}
+    }
+
+ 
 
 
 

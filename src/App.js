@@ -17,6 +17,7 @@ function App() {
       <Journal img={map}
       details={item}
       mountimg={image1}
+      key= {item.id}
       
       
       />

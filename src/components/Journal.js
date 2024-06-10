@@ -3,9 +3,10 @@ import React from 'react'
 
 export const Journal = (props) => {
   return (
-    <div className='container diana'>
+    <div className=''>
+        <div className='container diana'>
         <div className='content'>
-        <img src={props.mountimg}  alt='big'className='jimages'/>
+        <img src={props.details.src} alt={props.details.title} className='jimages' />
         </div>
         <div className='content-text'>
 
@@ -14,8 +15,6 @@ export const Journal = (props) => {
             <img src={props.img} alt='location'/> 
             <p className='country'>{props.details.location} </p>
             <a className='viewonmap' href={props.details.googlemaps}>View on Google Maps</a>
-
-
             </div>
           
 
@@ -34,5 +33,8 @@ export const Journal = (props) => {
             
         </div>
     </div>
+    <div className='line'></div>
+    </div>
+  
   )
 }
